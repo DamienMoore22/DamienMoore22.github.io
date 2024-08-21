@@ -1,8 +1,8 @@
 body {
     background: rgb(0, 0, 0);
-    color: rgb(122, 6, 133);
+    color: rgba(45, 228, 225, 0.639);
     padding: 10px;
-    font-family: arial;
+    font-family: ClerestorySSK;
 }
 #all-contents {
   max-width: 100px;
@@ -11,7 +11,7 @@ body {
 
 /* navigation menu */
 nav {
-    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.182);
    margin: 0 auto;
    margin-bottom: 20px;
     display: flex;
@@ -20,12 +20,17 @@ nav {
 h1 {
     display: flex;
     align-items: center;
-    color: rgb(99, 2, 123);
+    color: rgba(45, 228, 225, 0.639);
     flex: 1;
     margin: 0;
+    font-family: ClerestorySSK;
+    border-color: rgb(135, 31, 233);
+    border-style:outset;
+    border-radius: 10px;
+    border-width: 2.5px;
 }
 #nav-ul {
-    list-style-image: none;
+    list-style-image:none;
 }
 .nav-li {
     display: inline-block;
@@ -33,7 +38,8 @@ h1 {
 }
 a {
     text-decoration: none;
-    color: #5e006e;
+    color: rgba(45, 228, 225, 0.639);
+    font-family:ClerestorySSK;
 }
 
 /* main container area beneath menu */
@@ -46,7 +52,7 @@ main {
     padding: 10px;
 }
 .sidebar-img {
-    width: 200px;
+    width: 200x;
 }
 .content {
     flex: 1;
@@ -55,7 +61,7 @@ main {
 
 /* portfolio styles */
 #interests {
-    border: 4px silver ridge;
+    border: 2.5px silver ridge;
     padding: 8px;
 }
 h2, h3 {
