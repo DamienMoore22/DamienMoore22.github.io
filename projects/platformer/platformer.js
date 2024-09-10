@@ -54,6 +54,8 @@ createPlatform(1250,100,200,10)
     // Your collectable choices are 'database' 'diamond' 'grace' 'kennedi' 'max' and 'steve'; more can be added if you wish
     // example usage: createCollectable(type, x, y, gravity, bounce)
     createCollectable("steve",1300,50,0,0)
+    createCollectable("steve",900,300,0,0)
+    createCollectable("steve",850,200,0,0)
 
 
     
@@ -62,10 +64,11 @@ createPlatform(1250,100,200,10)
     // You must decide the wall you want the cannon on, the position on the wall, and the time between shots in milliseconds
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
-    createCannon('left', 0, 1570)
+    createCannon('left', 0, 1650)
     createCannon('left', 350, 1570)
-
-    
+    createCannon('left', 245, 1570)
+    createCannon('top', 245, 400)
+    createCannon('top', 500, 1200)
     /////////////////////////////////////////////////
     //////////ONLY CHANGE ABOVE THIS POINT///////////
     /////////////////////////////////////////////////
