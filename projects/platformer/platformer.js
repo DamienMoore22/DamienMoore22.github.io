@@ -56,6 +56,7 @@ createPlatform(1250,100,200,10)
     createCollectable("steve",1300,50,0,0)
     createCollectable("steve",900,300,0,0)
     createCollectable("steve",850,200,0,0)
+    createCollectable("steve",350,225,0,0)
 
 
     
@@ -65,10 +66,10 @@ createPlatform(1250,100,200,10)
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
     createCannon('left', 0, 1650)
-    createCannon('left', 350, 1570)
-    createCannon('left', 245, 1570)
-    createCannon('top', 245, 400)
-    createCannon('top', 500, 1200)
+    createCannon('left', 350, 1470)
+    createCannon('left', 245, 1470)
+    createCannon('top', 245, 900)
+    createCannon('top', 500, 1470)
     /////////////////////////////////////////////////
     //////////ONLY CHANGE ABOVE THIS POINT///////////
     /////////////////////////////////////////////////
