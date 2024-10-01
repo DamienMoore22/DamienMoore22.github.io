@@ -67,8 +67,12 @@
 
 			// TODO 2 - Variable declarations 
 
-
-			var positionX = 0;
+			function update() {
+			    /* Your Code to Increase positionk by 10 HERE:*/
+				moveBoxTo(positionx);
+			}
+			
+\
 
 			
 			/* 
@@ -78,6 +82,7 @@
 			*/
 			function update() {
 	
+	           myVariable = myVariable + 10;
 				moveBoxTo(positionX);
 				
 				
@@ -89,7 +94,9 @@
 			the left side of the screen.
 			*/
 			function handleBoxClick() {
+
 				positionX = 0;
+				changeBoxText(1);
 
 
 			};
